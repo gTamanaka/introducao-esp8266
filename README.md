@@ -52,10 +52,7 @@ void loop() {
 
 - Grave o programa e tente conectar um fio entre o pino D1 e o GND (logicamente significa 0 ou LOW). Depois desconecte o fio do GND e conecte o fio no 3V3 (logicamente significa HIGH ou 1)
 
-:exclamation:
-
-
-**Atenção Cuidado com as conexões, pois curtos e conexões erradas podem queimar o módulo ESP8266!**
+ <p style="color:#e74c3c"> Atenção: Cuidado com as conexões, pois curtos e conexões erradas podem queimar o módulo ESP8266! <p>
 
 Teste o sistema desconectado do PC, ou seja, ligado em um Power Bank ou fonte de celular. Note que o programa está no ESP8266 e não no PC! Ele funciona de forma autônoma!
 
@@ -400,12 +397,12 @@ void loop() {
 
 
 **Atividades:**
-Verifique pelo Serial Monitor se os dados estão sendo enviados!
-Utilize o endereço para verificar os dados recebidos http://200.133.229.248/MBI/tr.php?id=34
-Tente mudar a taxa de atualização dos dados (intervalo entre envios);
-Tente preparar o sistema para enviar dados de dois sensores (use outro ID e o sensor de umidade);
-Faça um App no App Inventor para visualizar a última leitura usando os dados da URL http://200.133.229.248/MBI/ultima.php?id=34
-Os exemplos acima são para o id 34;
-Desligue o NodeMCU do PC e ligue ele a um power bank ou carregador de celular e veja que o sistema funciona, mesmo sem PC!
-Desafio: Tente fazer um programa para ligar / desligar o rele através de Web Requests e não conexão direta, resolvendo assim possíveis problemas de NAT.
+- Verifique pelo Serial Monitor se os dados estão sendo enviados!
+- Utilize o endereço para verificar os dados recebidos http://200.133.229.248/MBI/tr.php?id=34
+- Tente mudar a taxa de atualização dos dados (intervalo entre envios);
+- Tente preparar o sistema para enviar dados de dois sensores (use outro ID e o sensor de umidade);
+- Faça um App no App Inventor para visualizar a última leitura usando os dados da URL http://200.133.229.248/MBI/ultima.php?id=34
+- Os exemplos acima são para o id 34;
+- Desligue o NodeMCU do PC e ligue ele a um power bank ou carregador de celular e veja que o sistema funciona, mesmo sem PC!
+- **Desafio:** Tente fazer um programa para ligar / desligar o rele através de Web Requests e não conexão direta, resolvendo assim possíveis problemas de NAT.
 
