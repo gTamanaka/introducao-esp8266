@@ -27,6 +27,7 @@ Figura: https://lowvoltage.github.io/images/NodeMCU-ESP8266-LEDs.jpg
   }
 ```
 
+![NodeMCU](/images/image6.png)
 
 **Atividade:** Tente mudar o intervalo com que o LED pisca.
 
@@ -77,7 +78,7 @@ Grave o exemplo e veja o resultado das redes Wifi disponíveis pelo serial monit
 
 Monitore o resultado pelo Serial Monitor
 
-
+![SerialMonitor](/images/image1.png)
 
 
 **Atividade:** Tente fazer o NodeMCU listar as redes apenas quando o botão for apertado.
@@ -94,6 +95,7 @@ S do rele no pino D1 do NodeMCU + do rele no pino VIN (5 Volts) do NodeMCU - do 
 Ligação elétrica (127V / 220V) - Cuidado!
 (Basicamente, é uma extensão elétrica com plugues macho e fêmea, de dois fios, com um dos fios controlado pelo rele, que por sua vez é controlado pelo NodeMCU)
 
+![Ligação](/images/image8.png)
 
 Figura: https://pandoralab.com.br/tutorial/tutorial-controle-de-equipamentos-por-bluetooth/
 
@@ -200,6 +202,9 @@ void loop() {
 ```
 
 Monitore o resultado pelo Serial Monitor
+
+![NodeMCU](/images/image5.png)
+
 Verifique o IP, acesse pelo seu navegador Web, e ligue / desligue o LED ou qualquer outro dispositivo!
 
 **Atividade:** Faça um aplicativo no App Inventor para ligar / desligar o dispositivo pelo próprio aplicativo. Você pode usar botões, comando de voz, ou até a orientação (posição do celular). Dica: use o componente Web.
@@ -215,6 +220,8 @@ Procure por DHT e inclua DHT Sensor library for ESPx
 
 Conexões - direta ou use o proto board!
 
+![Ligação sensor de temperatura](/images/image13.png)
+![Ligação sensor de temperatura 2](/images/image12.png)
 
 (Disponível em File -> Examples -> DHT Sensor Library for DHTx)
 
@@ -266,6 +273,7 @@ void loop()
 ```
 
 Monitore o resultado pelo Serial Monitor
+![Serial Monitor 3](/images/image10.png)
 
 **Atividade:** Faça a leitura do sensor ser disponibilizada via Web com o exemplo 2D via Web!
 
