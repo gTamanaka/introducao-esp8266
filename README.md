@@ -64,7 +64,7 @@ Repita o teste com um switch (botão) ou chave capacitiva (botão de toque). Par
 + GND do NodeMCU no GND da placa do interruptor;
 + Signal / S / OUT do interruptor no pino D1 do NodeMCU.
 
-**Atividade:** Tente fazer o LED piscar enquanto o botão está apertado, e parar de piscar quando não estiver apertado;
+**Atividade:** Tente fazer o LED piscar enquanto o botão está apertado, e parar de piscar quando não estiver apertado.
 
 ## Parte 2C - Listar redes Wifi
 Abra o Exemplo WifiScan
@@ -75,7 +75,7 @@ Grave o exemplo e veja o resultado das redes Wifi disponíveis pelo serial monit
 
 Monitore o resultado pelo Serial Monitor
 
-![SerialMonitor](/images/image1.png)
+  ![SerialMonitor](/images/image1.png)
 
 
 **Atividade:** Tente fazer o NodeMCU listar as redes apenas quando o botão for apertado.
