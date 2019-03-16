@@ -52,7 +52,7 @@ void loop() {
 
 - Grave o programa e tente conectar um fio entre o pino D1 e o GND (logicamente significa 0 ou LOW). Depois desconecte o fio do GND e conecte o fio no 3V3 (logicamente significa HIGH ou 1)
 
- <p style="color:#e74c3c"> Atenção: Cuidado com as conexões, pois curtos e conexões erradas podem queimar o módulo ESP8266! <p>
+<p style="color:#e74c3c"> Atenção: Cuidado com as conexões, pois curtos e conexões erradas podem queimar o módulo ESP8266! <p>
 
 Teste o sistema desconectado do PC, ou seja, ligado em um Power Bank ou fonte de celular. Note que o programa está no ESP8266 e não no PC! Ele funciona de forma autônoma!
 
@@ -74,6 +74,7 @@ File -> Examples -> ESP8266Wifi -> WifiScan
 Grave o exemplo e veja o resultado das redes Wifi disponíveis pelo serial monitor
 
 Monitore o resultado pelo Serial Monitor
+
 
   ![SerialMonitor](/images/image1.png)
 
