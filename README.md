@@ -7,7 +7,7 @@ Defina qual a placa, no menu Tools -> Board -> NodeMCU 1.0 (ESP12E) ou NodeMCU 0
 Escolha também a porta da placa em Tools -> Board -> Port (caso não tenha nada listado em portas, verifique as conexões, ou a placa, que pode estar com problemas)
 
 
-Figura: https://lowvoltage.github.io/images/NodeMCU-ESP8266-LEDs.jpg
+
 
 ```
   #include <Arduino.h>
@@ -28,6 +28,8 @@ Figura: https://lowvoltage.github.io/images/NodeMCU-ESP8266-LEDs.jpg
 ```
 
 ![NodeMCU](/images/image6.png)
+
+Figura: https://lowvoltage.github.io/images/NodeMCU-ESP8266-LEDs.jpg
 
 **Atividade:** Tente mudar o intervalo com que o LED pisca.
 
@@ -52,7 +54,7 @@ void loop() {
 
 - Grave o programa e tente conectar um fio entre o pino D1 e o GND (logicamente significa 0 ou LOW). Depois desconecte o fio do GND e conecte o fio no 3V3 (logicamente significa HIGH ou 1)
 
-<p style="color:#e74c3c"> Atenção: Cuidado com as conexões, pois curtos e conexões erradas podem queimar o módulo ESP8266! <p>
+### Atenção: Cuidado com as conexões, pois curtos e conexões erradas podem queimar o módulo ESP8266!
 
 Teste o sistema desconectado do PC, ou seja, ligado em um Power Bank ou fonte de celular. Note que o programa está no ESP8266 e não no PC! Ele funciona de forma autônoma!
 
